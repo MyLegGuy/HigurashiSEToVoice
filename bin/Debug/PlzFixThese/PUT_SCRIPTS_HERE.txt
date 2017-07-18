@@ -1,0 +1,4 @@
+Please put the script files in this folder.
+You will probably want to take the files from HigurashiEpXX_Data/StreamingAssets/Update and put them here.
+
+Now that you've read this, you should delete this file and TestScript.txt.
