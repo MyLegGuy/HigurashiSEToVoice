@@ -30,7 +30,7 @@ namespace HigurashiSEToVoice
 		public NotStatic()
 		{
 			if (Directory.Exists(Options.folderName)==false){
-				Console.Out.WriteLine("{0} was not found! Please create that folder and put your script files in it.");
+				Console.Out.WriteLine("{0} was not found! Please create that folder and put your script files in it.",Options.folderName);
 				return;
 			}
 			string[] fileEntries = Directory.GetFiles(Options.folderName, "*.*", SearchOption.AllDirectories);
